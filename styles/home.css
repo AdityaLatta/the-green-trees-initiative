@@ -1,0 +1,899 @@
+/* ---------------------------hero section------------------------------ */
+
+#main_home {
+    background: url("../assets/home/annie-spratt-135307-unsplash.png");
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 0;
+}
+
+#main_home > div {
+    width: 100%;
+    height: 30rem;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#main_home > div > div {
+    width: 100%;
+    height: 100%;
+    min-height: 50%;
+}
+
+/* -------------------------------take action-------------------------------- */
+
+#take-action {
+    max-width: 71rem;
+    padding: 0 1rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#take-action > :nth-child(2) {
+    padding-bottom: 4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+#take-action > :nth-child(2) > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+#take-action > :nth-child(2) > div > h2 {
+    font-size: 1.25rem;
+}
+
+#take-action > :nth-child(2) > div > p {
+    font-size: 0.92rem;
+}
+
+/* --------------------------------What we do--------------------------------- */
+
+.what-we-do-container {
+    background-color: #354463;
+    display: flex;
+    flex-direction: column;
+}
+
+#what-we-do {
+    padding: 3.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5.5rem;
+}
+
+.what-we-do-container > .header {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.what-we-do-container > .header > .title {
+    font-size: 0.9rem;
+    padding: 11px 40px;
+    background-color: white;
+    width: fit-content;
+    margin-top: 3rem;
+}
+
+.what-we-do-container > .header > .desc {
+    font-size: 1.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+#what-we-do > .work > div {
+    background-color: white;
+    padding: 0 3rem 3rem 3rem;
+}
+
+#what-we-do > .work > div > div > img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transform: translateY(-2rem);
+}
+
+#what-we-do > .work > div > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+#what-we-do > .work > div > div > h1 {
+    font-size: 1.2rem;
+}
+
+#what-we-do > .work > div > div > p {
+    font-size: 1rem;
+}
+
+#what-we-do > .work > div > div > a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 3rem;
+    transform: translateY(1rem);
+}
+
+/* --------------------------------did you know--------------------------------- */
+
+#did-you-know-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url("../assets/home/did-you-know-background.png");
+    background-size: cover;
+}
+
+#did-you-know-section > .did-you-know {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+#did-you-know-section > .did-you-know > .title-btn {
+    padding: 4rem 0;
+}
+
+#did-you-know-section > .did-you-know > .title-btn > h2 {
+    margin: 1.85rem 0 2.85rem 0;
+    padding-right: 6rem;
+    font-size: 2.75rem;
+}
+
+#did-you-know-section > .did-you-know > .title-btn > a {
+    border-radius: 4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+#did-you-know-section > .did-you-know > .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+#did-you-know-section > .did-you-know > .cards > div {
+    display: flex;
+    flex-direction: column;
+
+    gap: 2rem;
+    padding: 3.75rem 2rem;
+    background-color: white;
+    width: 100%;
+}
+
+#did-you-know-section > .did-you-know > .cards > .badge-div {
+    padding-top: 0;
+    gap: 0;
+    align-items: center;
+}
+
+#did-you-know-section > .did-you-know > .cards > div > .badge {
+    padding: 0.85rem 3.5rem;
+    transform: translateY(-50%);
+}
+
+#did-you-know-section > .did-you-know > .cards > div > div > .head {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+#did-you-know-section > .did-you-know > .cards > div > div > .head > h3 {
+    font-size: 1.4rem;
+}
+
+#did-you-know-section > .did-you-know > .cards > div > div > .head > div {
+    text-align: center;
+}
+
+#did-you-know-section > .did-you-know > .cards > div > div > .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-top: 2.28rem;
+}
+
+#did-you-know-section > .did-you-know > .cards > div > div > .social > div {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 100%;
+    background-color: #c1f7d5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ---------------------------stories------------------------------ */
+
+#stories {
+    padding: 3.75rem 0;
+}
+
+#stories > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0.5rem;
+}
+
+.stories-title {
+    padding: 0.7rem 2.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    margin: auto;
+    transform: translateY(50%);
+}
+
+.stories-card {
+    max-height: min-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    max-width: 40rem;
+    overflow: hidden;
+}
+
+.stories-photo > img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* .stories-testimonials {
+    margin: 0 3rem;
+} */
+
+.stories-testimonials > :nth-child(1) {
+    padding: 2rem;
+    text-align: center;
+}
+
+.stories-testimonials > .take-action-btn {
+    margin: auto;
+    margin-top: 2.75rem;
+}
+
+.testimonial {
+    font-size: 1.5rem;
+    padding-bottom: 2.5rem;
+}
+
+/* ------------------------------events------------------------------------ */
+
+#event-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#events {
+    padding: 4.8rem 0.5rem;
+}
+
+#events > h2 {
+    font-size: 2.75rem;
+    margin-bottom: 4.3rem;
+}
+
+.event-grid {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.event-grid > :nth-child(3) {
+    order: 1;
+}
+
+.event-grid > .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    transform: translateY(-2rem);
+    text-align: center;
+}
+
+.event-grid > :nth-child(1) > img,
+.event-grid > :nth-child(4) > img {
+    height: 20rem;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* ---------------------------------contact------------------------------------- */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 1rem;
+}
+
+#contact > div > form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#contact > div > form > input {
+    padding: 1rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 3rem;
+}
+
+#contact > div > form > button {
+    font-size: 1.1rem;
+    border: none;
+    color: #c1f7d5;
+    background-color: #364564;
+}
+
+/* -----------------------------------footer------------------------------------------ */
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 3.5rem 1rem;
+}
+
+footer > div {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+}
+
+.mid-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.mid-footer > div {
+    font-size: 0.875rem;
+}
+
+.mid-footer > div > h1 {
+    padding-bottom: 0.3rem;
+}
+
+.mid-footer > div > h1 {
+    font-size: 0.875rem;
+}
+
+.mid-footer > div > ul {
+    padding-top: 0.3rem;
+}
+
+.mid-footer > div > ul > li {
+    list-style: none;
+    padding-top: 0.2rem;
+}
+
+/* --------------------------------------------------------------------*/
+/*----------------------- Tab View------------------------------------ */
+/* --------------------------------------------------------------------*/
+
+@media screen and (min-width: 480px) {
+    /* ---------------------------hero section------------------------------ */
+
+    #main_home {
+        padding: 9.5rem 0 4rem 0;
+    }
+
+    #main_home > div {
+        max-width: 40rem;
+        height: 37rem;
+    }
+
+    #main_home > div > :nth-child(1) {
+        height: 17rem;
+    }
+
+    #main_home > div > :nth-child(1) {
+        height: 20rem;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        font-size: xx-large;
+        transform: translateY(-5rem);
+    }
+
+    .second {
+        align-items: flex-start;
+        gap: 3rem;
+        padding: 0 4rem 4rem 4rem;
+    }
+
+    .second > h1 {
+        font-size: 1.8rem;
+        transform: translateY(-2.5rem);
+        text-align: start;
+    }
+
+    .second > a {
+        padding-bottom: 3rem;
+        transform: translateY(-3.5rem);
+        text-align: start;
+    }
+
+    /* -------------------------------take action-------------------------------- */
+
+    #take-action {
+        max-width: 40rem;
+        gap: 1rem;
+    }
+
+    #take-action > :nth-child(2) {
+        column-gap: 8rem;
+        row-gap: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    #take-action > :nth-child(2) > div > h2 {
+        font-size: 1.75rem;
+    }
+
+    #take-action > :nth-child(2) > div > p {
+        font-size: 1rem;
+    }
+
+    /* --------------------------------What we do--------------------------------- */
+
+    .what-we-do-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .what-we-do-container > .header {
+        max-width: 40rem;
+        justify-content: start;
+        align-items: start;
+    }
+
+    #what-we-do {
+        max-width: 40rem;
+        justify-content: start;
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    .what-we-do-container > .header > .desc {
+        font-size: 1.7rem;
+        text-align: start;
+    }
+
+    #what-we-do > .work > div {
+        padding: 0;
+        padding-bottom: 3rem;
+        margin-right: 4rem;
+    }
+
+    #what-we-do > .work > div > .image-div {
+        transform: translateX(4rem);
+    }
+
+    #what-we-do > .work > div > :nth-child(2) {
+        align-items: start;
+        padding: 0 2rem;
+    }
+
+    #what-we-do > .work > div > :nth-child(2) > h1 {
+        font-size: 1.75rem;
+    }
+
+    /* --------------------------------did you know--------------------------------- */
+
+    #did-you-know-section > .did-you-know {
+        max-width: 40rem;
+    }
+
+    #did-you-know-section > .did-you-know > .title-btn {
+        align-items: start;
+        justify-content: flex-start;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #did-you-know-section
+        > .did-you-know
+        > .cards
+        > .badge-div
+        > :nth-child(1) {
+        align-self: start;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div > .head {
+        justify-content: start;
+        align-items: flex-start;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div > .head > h3 {
+        font-size: 1.75rem;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div > .head > div {
+        padding: 0;
+        text-align: start;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div > .social {
+        flex-direction: column;
+        padding-top: 0;
+        padding-right: 2rem;
+    }
+
+    /* --------------------------------stories------------------------------ */
+
+    .stories-testimonials {
+        transform: translate(2rem, -4.75rem);
+    }
+
+    .stories-photo {
+        transform: translate(-2rem, 2rem);
+    }
+
+    .stories-testimonials > :nth-child(1) {
+        padding: 4rem;
+        text-align: start;
+    }
+
+    /* ---------------------------events---------------------------- */
+
+    #events {
+        max-width: 40rem;
+    }
+
+    #events > h2 {
+        font-size: 4.5rem;
+    }
+
+    .event-grid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 3rem;
+    }
+
+    .event-grid > :nth-child(3) {
+        order: 0;
+    }
+
+    .event-grid > .desc {
+        transform: none;
+        justify-content: start;
+        align-items: start;
+        text-align: start;
+        margin: 0 2rem;
+    }
+
+    .text-oneandhalf {
+        font-size: 1.75rem;
+    }
+
+    .event-grid > :nth-child(1) > img,
+    .event-grid > :nth-child(4) > img {
+        height: auto;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    /* -----------------------contact----------------------------------- */
+
+    #contact > div {
+        max-width: 40rem;
+    }
+
+    #contact > div > h3 {
+        font-size: 1.75rem;
+    }
+
+    /* -----------------------------------footer---------------------------------- */
+
+    footer > div {
+        width: 100%;
+        justify-content: flex-start;
+        max-width: 40rem;
+    }
+
+    .mid-footer {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        gap: 0;
+    }
+
+    .mid-footer > div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mid-footer > div > hr {
+        align-items: start;
+        width: 100%;
+    }
+
+    .tagline {
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* --------------------------------did you know--------------------------------- */
+
+    #did-you-know-section > .did-you-know {
+        max-width: 40rem;
+        flex-direction: row;
+        padding: 4rem 0;
+    }
+
+    #did-you-know-section > .did-you-know > .title-btn {
+        padding: 0;
+        width: 35%;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div {
+        padding: 2rem;
+    }
+
+    /* -----------------------------------contact------------------------------------ */
+
+    #contact > div > form {
+        flex-direction: row;
+        gap: 3rem;
+        max-height: 3rem;
+        margin: auto;
+    }
+
+    #contact > div > form > input {
+        width: 50%;
+    }
+
+    #contact > div > form > button {
+        padding: 0.8rem;
+    }
+}
+
+/* --------------------------------------------------------------------*/
+/*-------------------------- Desktop View -----------------------------*/
+/* --------------------------------------------------------------------*/
+
+@media screen and (min-width: 1024px) {
+    /* ---------------------------hero section------------------------------ */
+
+    #main_home {
+        padding: 8rem 0;
+        background-position: center;
+        background: url("../assets/home/annie-spratt-135307-unsplash@3x.png");
+        background-size: cover;
+    }
+
+    #main_home > div {
+        max-width: 71rem;
+        flex-direction: row-reverse;
+        height: 30rem;
+    }
+
+    #main_home > div > :nth-child(1) {
+        height: 15rem;
+    }
+
+    #main_home > div > :nth-child(1) {
+        height: 15rem;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .second > h1 {
+        font-size: 3.2rem;
+        transform: translateY(-2rem);
+    }
+
+    .second > a {
+        width: 20rem;
+    }
+
+    /* -------------------------------take action-------------------------------- */
+
+    #take-action {
+        max-width: 71rem;
+        gap: 2rem;
+    }
+
+    #take-action > :nth-child(2) {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: none;
+        gap: 2rem;
+    }
+
+    /* --------------------------------What we do--------------------------------- */
+
+    .what-we-do-container > .header {
+        max-width: 71rem;
+    }
+
+    .what-we-do-container > .header > .desc {
+        font-size: 3rem;
+        padding-bottom: 0;
+    }
+
+    #what-we-do {
+        max-width: 71rem;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    #what-we-do > .work > div > .image-div {
+        transform: translateX(2rem);
+    }
+
+    /* --------------------------------did you know--------------------------------- */
+
+    #did-you-know-section > .did-you-know {
+        max-width: 71rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #did-you-know-section > .did-you-know > .title-btn > h2 {
+        font-size: 4.5rem;
+        padding: 0;
+        padding-top: 5rem;
+    }
+
+    #did-you-know-section > .did-you-know > .cards {
+        padding: 4rem 0;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div {
+        padding: 3.75rem 2rem;
+        max-width: 80%;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div {
+        gap: 4rem;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div > .head > h3 {
+        font-size: 2.75rem;
+    }
+
+    #did-you-know-section > .did-you-know > .cards > div > div > .head > h3 {
+        font-size: 2.75rem;
+    }
+
+    /* ---------------------------------stories-------------------------- */
+
+    .stories-card {
+        flex-direction: row-reverse;
+        max-width: 71rem;
+        align-items: end;
+    }
+
+    .stories-card > div {
+        width: 50%;
+    }
+
+    .stories-testimonials {
+        transform: translateX(3rem);
+    }
+
+    .stories-photo {
+        transform: translateX(-3rem);
+    }
+
+    .stories-testimonials > .take-action-btn {
+        margin: 0;
+        margin-top: 2.75rem;
+    }
+
+    .stories-title {
+        margin: 0;
+        margin-left: 4rem;
+    }
+
+    /* ---------------------------------------events------------------------------- */
+
+    #events {
+        max-width: 71rem;
+    }
+
+    .event-grid > .desc {
+        margin: 0 5rem;
+    }
+
+    .event-grid > :nth-child(3) {
+        margin: 0;
+        margin-right: 10rem;
+    }
+
+    .event-grid > .desc > h3 {
+        font-size: 2.75rem;
+    }
+
+    .event-grid > .desc > p {
+        font-size: 1.25rem;
+    }
+
+    .event-grid {
+        row-gap: 5rem;
+    }
+
+    /* ---------------------------------contact--------------------------------------- */
+
+    #contact > div {
+        max-width: 71rem;
+        display: flex;
+    }
+
+    #contact > div > h3 {
+        width: 50%;
+    }
+
+    #contact > div > form {
+        width: 50%;
+    }
+
+    /* -----------------------------------footer------------------------------------- */
+
+    footer > div {
+        max-width: 71rem;
+        flex-direction: row;
+    }
+
+    .mid-footer > div {
+        width: auto;
+    }
+}

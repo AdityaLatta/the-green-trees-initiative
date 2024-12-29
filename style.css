@@ -1,0 +1,319 @@
+:root {
+    --heading_color: #333333;
+    --font_color: #222222;
+    --hero_color: #354463;
+    --action_color: #c1f7d5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 71rem;
+    margin: 1.9rem auto 0rem auto;
+    padding: 0 0.5rem;
+}
+
+.logo > h1 {
+    font-size: 1.5rem;
+    color: var(--heading_color);
+}
+
+.logo_nav > nav > ul > li {
+    list-style: none;
+    color: var(--font_color);
+    margin-bottom: 0.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font_color);
+}
+
+.logo_nav > nav > ul > :nth-child(4) {
+    display: none;
+}
+
+.mobile_donate_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0.5rem;
+}
+
+.mobile_donate_btn > li {
+    width: 100%;
+    text-align: center;
+    list-style: none;
+    background-color: #c1f7d5;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5rem;
+    font-size: large;
+    font-weight: bold;
+    color: var(--heading_color);
+}
+
+.tablet_btn {
+    display: none;
+}
+
+.tablet_nav > ul {
+    display: flex;
+    gap: 3rem;
+    padding: 1.5rem 0.5rem;
+}
+
+.tablet_nav > ul > li {
+    list-style: none;
+    color: var(--font_color);
+}
+
+.tablet_nav {
+    display: none;
+}
+
+/* <--------------------------------utility classes-----------------------------> */
+
+.paint-font {
+    font-family: "flood-std";
+}
+
+.font-white {
+    color: white;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.text-heading {
+    font-size: 1.5rem;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.leading {
+    letter-spacing: 3px;
+}
+
+.m-1 {
+    margin: 1rem;
+}
+
+.p-1 {
+    padding: 1rem;
+}
+
+.p-2 {
+    padding: 2rem;
+}
+
+.p-4 {
+    padding: 4rem;
+}
+
+.pb-1 {
+    padding-bottom: 1rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pb-4 {
+    padding-bottom: 4rem;
+}
+
+.pl-3 {
+    padding-left: 3rem;
+}
+
+.pl-4 {
+    padding-left: 4rem;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
+
+.pr-3 {
+    padding-right: 3rem;
+}
+
+.pr-4 {
+    padding-right: 4rem;
+}
+
+.bg-card-title {
+    background-color: #354463;
+}
+
+.inline-block {
+    display: inline;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.text-l {
+    font-size: large;
+}
+
+.text-xl {
+    font-size: x-large;
+}
+
+.text-xxl {
+    font-size: xx-large;
+}
+
+.hero-heading-color {
+    color: var(--hero_color);
+}
+
+.over-top-border {
+    transform: translateY(-40%);
+}
+
+.bg-action {
+    background-color: var(--action_color);
+}
+
+.rounded {
+    border-radius: 3rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.object-contain {
+    object-fit: contain;
+}
+
+.text-oneandhalf {
+    font-size: 1.5rem;
+}
+
+.letter-gap {
+    letter-spacing: 0.1rem;
+}
+
+/* ---------------------Navbar media queries-------------------- */
+
+@media screen and (min-width: 480px) {
+    .large_nav {
+        display: none;
+    }
+
+    .tablet_btn {
+        display: block;
+    }
+
+    .logo_nav {
+        margin: 1.9rem auto;
+        margin-bottom: 0;
+        max-width: 40rem;
+    }
+
+    .tablet_btn > li {
+        list-style: none;
+        background-color: #c1f7d5;
+        padding: 0.8rem 1.5rem;
+        border-radius: 5rem;
+        font-size: large;
+        font-weight: bold;
+        color: var(--heading_color);
+    }
+
+    .tablet_nav {
+        display: block;
+        max-width: 40rem;
+        margin: auto;
+    }
+
+    .mobile_donate_btn {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .large_nav {
+        display: block;
+    }
+
+    .logo_nav {
+        margin-bottom: 1.9rem;
+        max-width: 71rem;
+    }
+
+    .logo_nav > nav > ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 6.3rem;
+    }
+
+    .logo_nav > nav > ul > :nth-child(4) {
+        display: block;
+        background-color: #c1f7d5;
+        padding: 0.8rem 1.5rem;
+        border-radius: 5rem;
+        font-size: large;
+        font-weight: bold;
+        color: var(--heading_color);
+    }
+
+    .tablet_btn {
+        display: none;
+    }
+
+    .tablet_nav {
+        display: none;
+    }
+}
