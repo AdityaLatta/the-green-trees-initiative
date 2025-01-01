@@ -5,6 +5,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .form-section-div {
@@ -208,6 +211,22 @@ footer > div {
 }
 
 @media screen and (min-width: 1024px) {
+    .form-section-div {
+        flex-direction: row-reverse;
+        align-items: start;
+        max-width: 71rem;
+        justify-content: center;
+    }
+
+    .form-heading {
+        font-size: 2.75rem;
+        width: 50%;
+    }
+
+    .form {
+        width: 50%;
+    }
+
     /* -----------------------------------footer------------------------------------- */
 
     footer > div {
