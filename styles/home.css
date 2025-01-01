@@ -207,6 +207,7 @@
     align-items: center;
     gap: 1rem;
     padding: 0.5rem;
+    color: #354463;
 }
 
 #did-you-know-section > .did-you-know > .cards > div > div > .head > h3 {
