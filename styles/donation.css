@@ -92,6 +92,17 @@
     padding-top: 2rem;
 }
 
+#state {
+    background: transparent;
+    border: none;
+    color: #c1f7d5;
+    outline: none;
+}
+
+#state > option {
+    color: black;
+}
+
 .expiration-year > label {
     visibility: hidden;
 }

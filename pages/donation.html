@@ -75,12 +75,12 @@
                         <div class="inner-container">
                             <div class="state input">
                                 <label for="state">State</label>
-                                <input
-                                    type="text"
-                                    id="state"
-                                    name="state"
-                                    placeholder="State"
-                                />
+                                <select name="state" id="state">
+                                    <option value="AL">AL</option>
+                                    <option value="BL">BL</option>
+                                    <option value="CL">CL</option>
+                                    <option value="DL">DL</option>
+                                </select>
                             </div>
 
                             <div class="zip input">
@@ -110,7 +110,8 @@
                     <div class="input">
                         <label for="credit-card">Credit card number</label>
                         <input
-                            type="number"
+                            type="text"
+                            maxlength="16"
                             id="credit-card"
                             name="credit-card"
                             placeholder="Credit card number"
@@ -122,8 +123,8 @@
                             <div class="expiration input">
                                 <label for="expiration">Expiration</label>
                                 <input
-                                    type="number"
-                                    max="2"
+                                    type="text"
+                                    maxlength="2"
                                     id="expiration"
                                     name="expiration"
                                     placeholder="MM"
@@ -133,8 +134,8 @@
                             <div class="expiration-year input">
                                 <label for="expiration-year">year</label>
                                 <input
-                                    type="number"
-                                    max="4"
+                                    type="text"
+                                    maxlength="4"
                                     id="expiration-year"
                                     name="expiration-year"
                                     placeholder="YYYY"
@@ -148,8 +149,8 @@
                                     >Security code</label
                                 >
                                 <input
-                                    type="number"
-                                    max="3"
+                                    type="text"
+                                    maxlength="3"
                                     id="code"
                                     name="code"
                                     placeholder="CVC"
