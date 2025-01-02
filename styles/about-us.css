@@ -303,42 +303,61 @@
 
 footer {
     display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     padding: 3.5rem 1rem;
 }
 
 footer > div {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 2rem;
+    width: 100%;
     align-items: start;
+    justify-items: center;
+}
+
+.logo {
+    font-size: 0.7rem;
 }
 
 .mid-footer {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-}
-
-.mid-footer > div {
     font-size: 0.875rem;
 }
 
-.mid-footer > div > h1 {
+.mid-footer > h1 {
     padding-bottom: 0.3rem;
 }
 
-.mid-footer > div > h1 {
+.mid-footer > h1 {
     font-size: 0.875rem;
 }
 
-.mid-footer > div > ul {
+.mid-footer > ul {
     padding-top: 0.3rem;
 }
 
-.mid-footer > div > ul > li {
+.mid-footer > ul > li {
     list-style: none;
     padding-top: 0.2rem;
+    text-decoration: underline;
+}
+
+.contact > ul > li {
+    text-decoration: none;
+}
+
+.mid-footer > hr {
+    display: none;
+}
+
+.tagline {
+    grid-column: 2/3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 /* -----------------tablet---------------------- */
@@ -452,35 +471,34 @@ footer > div {
 
     footer {
         justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     footer > div {
-        width: 100%;
-        justify-content: flex-start;
+        grid-template-columns: 1fr 1fr 1fr;
         max-width: 40rem;
     }
 
-    .mid-footer {
-        flex-direction: row;
-        justify-content: space-around;
-        width: 100%;
-        gap: 0;
+    .tagline {
+        grid-column: 3/4;
     }
 
-    .mid-footer > div {
+    footer > div > :nth-child(4) {
+        grid-column: 2/3;
+    }
+
+    .mid-footer {
         width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
     }
 
-    .mid-footer > div > hr {
+    .mid-footer > hr {
         align-items: start;
         width: 100%;
-    }
-
-    .tagline {
-        margin-left: auto;
     }
 }
 
@@ -629,9 +647,23 @@ footer > div {
     footer > div {
         max-width: 71rem;
         flex-direction: row;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: none;
     }
 
-    .mid-footer > div {
+    .tagline {
+        grid-column: auto;
+    }
+
+    footer > div > :nth-child(4) {
+        grid-column: auto;
+    }
+
+    .mid-footer {
         width: auto;
+    }
+
+    .mid-footer > hr {
+        display: block;
     }
 }
