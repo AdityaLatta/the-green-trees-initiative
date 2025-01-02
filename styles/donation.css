@@ -139,7 +139,6 @@
 
 footer {
     display: flex;
-    justify-content: center;
     width: 100%;
     padding: 3.5rem 1rem;
 }
@@ -190,6 +189,10 @@ footer > div {
     }
 
     /* -----------------------------------footer---------------------------------- */
+
+    footer {
+        justify-content: center;
+    }
 
     footer > div {
         width: 100%;
