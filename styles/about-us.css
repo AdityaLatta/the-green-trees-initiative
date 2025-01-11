@@ -59,7 +59,7 @@
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     color: white;
-    gap: 3rem;
+    gap: 1rem;
     margin: 4rem 0;
 }
 
@@ -103,8 +103,8 @@
 
 .team-container > .team-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     gap: 2rem;
 }
 
@@ -456,6 +456,8 @@ footer > div {
     }
 
     .team-container > .team-grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         column-gap: 4rem;
         row-gap: 0;
     }
