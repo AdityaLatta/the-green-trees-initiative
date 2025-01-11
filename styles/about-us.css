@@ -19,12 +19,14 @@
 }
 
 .second {
-    align-items: center;
+    align-items: start;
 }
 
 .second > h1 {
     padding: 2rem;
     padding-top: 0;
+    font-size: 1.2rem;
+    text-align: center;
 }
 
 /* ---------------------missions-------------------- */
@@ -34,6 +36,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.mission-container > .top-badge {
+    padding: 0.8rem 2rem;
 }
 
 .mission-container {
@@ -245,7 +251,6 @@
     padding: 2rem;
     background-color: white;
     color: #354463;
-    text-align: center;
 }
 
 .his-card-text > h3 {
@@ -256,17 +261,14 @@
     font-size: 1.2rem;
 }
 
-.his-card-text > div {
-    font-size: 1.2rem;
-}
-
 .his-card-text > a {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     background-color: #c1f7d5;
     color: #354463;
-    padding: 0.7rem 2rem;
+    padding: 0.8rem 2rem;
     border-radius: 3rem;
+    align-self: flex-start;
 }
 
 /* ---------------------------------contact------------------------------------- */
@@ -290,6 +292,10 @@
     font-size: 1.1rem;
     border: none;
     border-radius: 3rem;
+}
+
+#contact > div > form > button {
+    padding: 0.8rem 1rem;
 }
 
 #contact > div > form > button {
@@ -357,6 +363,7 @@ footer > div {
 @media screen and (min-width: 480px) {
     .main_about {
         max-width: 40rem;
+        padding: 2rem 0;
     }
 
     .second {
@@ -364,14 +371,20 @@ footer > div {
     }
 
     .second > div {
-        margin-left: 2rem;
+        margin-left: 4rem;
+    }
+
+    .second > h1 {
+        text-align: start;
+        padding: 1rem 4rem 4rem 4rem;
+        font-size: 1.75rem;
     }
 
     /* -----------------missions------------- */
 
     .mission-container {
         align-items: start;
-        padding: 3rem;
+        padding: 3rem 0;
         max-width: 40rem;
     }
 
@@ -385,7 +398,7 @@ footer > div {
     }
 
     .heading-div > h1 {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
 
     .grid-container > div > h3 {
@@ -408,6 +421,8 @@ footer > div {
 
     .team-grid > div > div {
         transform: translate(10%, -50%);
+        display: flex;
+        gap: 1rem;
     }
 
     .team-container > .team-grid {
@@ -437,6 +452,7 @@ footer > div {
 
     .impact-desc {
         font-size: 1.5rem;
+        width: 65%;
     }
 
     /* ------------------year---------------------- */
@@ -449,14 +465,39 @@ footer > div {
         max-width: 40rem;
     }
 
+    .his-card {
+        align-items: start;
+    }
+
+    .his-year {
+        margin-left: 2rem;
+    }
+
+    .cards-heading {
+        padding-bottom: 4.3rem;
+        font-size: 3rem;
+        color: white;
+        text-align: start;
+        font-family: "flood-std";
+    }
+
     /* -----------------------contact----------------------------------- */
 
     #contact > div {
         max-width: 40rem;
+        gap: 1rem;
+    }
+
+    #contact > div > h3 {
+        padding-right: 2rem;
     }
 
     #contact > div > h3 {
         font-size: 1.75rem;
+    }
+
+    #contact > div > form > button {
+        padding: 13px 67px;
     }
 
     /* -----------------------------------footer---------------------------------- */
@@ -515,7 +556,7 @@ footer > div {
     }
 
     #contact > div > form > button {
-        padding: 0.8rem;
+        padding: 0.8rem 2.312rem;
     }
 }
 
@@ -617,6 +658,10 @@ footer > div {
 
     /* ------------------year---------------------- */
 
+    .cards-heading {
+        width: 70%;
+    }
+
     .his-card-three {
         display: flex;
     }
@@ -638,6 +683,11 @@ footer > div {
 
     #contact > div > form {
         width: 50%;
+        margin: 7px 0;
+    }
+
+    #contact > div > form > input {
+        width: 100%;
     }
 
     /* -----------------------------------footer------------------------------------- */
