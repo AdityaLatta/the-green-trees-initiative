@@ -305,6 +305,7 @@
 #events > h2 {
     font-size: 2.75rem;
     margin-bottom: 4.3rem;
+    text-align: center;
 }
 
 .event-grid {
@@ -612,6 +613,7 @@ footer > div {
 
     #events > h2 {
         font-size: 4.5rem;
+        text-align: start;
     }
 
     .event-grid {
@@ -883,6 +885,10 @@ footer > div {
 
     #events {
         max-width: 71rem;
+    }
+
+    #events > .event-heading {
+        width: 80%;
     }
 
     .event-grid > .desc {
