@@ -59,7 +59,7 @@
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     color: white;
-    gap: 1rem;
+    gap: 3rem;
     margin: 4rem 0;
 }
 
@@ -408,6 +408,7 @@ footer > div {
     .mission-container > .grid-container {
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
+        gap: 1rem;
     }
 
     .mission-container > .heading-div {
