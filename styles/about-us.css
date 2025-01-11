@@ -56,10 +56,27 @@
 
 .mission-container > .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     color: white;
     gap: 2rem;
+}
+
+.mission-container > .grid-container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mission-container > .grid-container > div > div {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
 }
 
 .grid-container > div > h3 {
@@ -78,8 +95,8 @@
 .team-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    /* align-items: center;
+    justify-content: center; */
     gap: 2rem;
 }
 
@@ -92,12 +109,12 @@
 
 .team-badge {
     padding: 1rem 3rem;
+    width: fit-content;
 }
 
 .team-title {
     color: #354463;
     font-size: 1.25rem;
-    text-align: center;
 }
 
 .title-desc-div {
@@ -108,7 +125,6 @@
 
 .team-desc {
     color: #354463;
-    text-align: center;
 }
 
 .team-grid > div > img {
@@ -405,6 +421,11 @@ footer > div {
         font-size: 1.5rem;
     }
 
+    .mission-container > .grid-container > div > div {
+        text-align: start;
+        align-items: start;
+    }
+
     /* -----------------team----------------- */
 
     .team-container {
@@ -623,6 +644,7 @@ footer > div {
 
     .title-desc-div {
         align-items: center;
+        margin: 1rem 0 5rem 0;
     }
 
     .team-title {
