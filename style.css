@@ -37,6 +37,27 @@ a {
     color: var(--font_color);
 }
 
+.d-btn {
+    transition: color 0.5s;
+}
+
+.d-btn > a {
+    color: #354463;
+    transition: color 0.5s;
+}
+
+.d-btn:hover {
+    background-color: #354463;
+}
+
+.d-btn:hover > a {
+    color: #c1f7d5;
+}
+
+.logo_nav > .large_nav > ul > .d-btn:hover {
+    background-color: #354463;
+}
+
 .logo_nav > nav > ul > :nth-child(4) {
     display: none;
 }
@@ -264,6 +285,17 @@ a {
 
 .helvetica {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.large_nav > ul > :nth-child(1) > a:hover,
+.large_nav > ul > :nth-child(2):hover,
+.large_nav > ul > :nth-child(3):hover {
+    color: gray;
+}
+
+.tablet_nav > ul > li:hover,
+.tablet_nav > ul > li > a:hover {
+    color: gray;
 }
 
 /* ---------------------Navbar media queries-------------------- */
