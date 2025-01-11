@@ -59,7 +59,8 @@
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     color: white;
-    gap: 2rem;
+    gap: 3rem;
+    margin: 4rem 0;
 }
 
 .mission-container > .grid-container > div {
@@ -421,9 +422,17 @@ footer > div {
         font-size: 1.5rem;
     }
 
+    .mission-container > .grid-container > div {
+        justify-content: flex-start;
+    }
+
     .mission-container > .grid-container > div > div {
         text-align: start;
         align-items: start;
+    }
+
+    .mission-container > .grid-container > div > div > h3 {
+        font-size: 1.5rem;
     }
 
     /* -----------------team----------------- */
