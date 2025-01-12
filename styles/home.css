@@ -57,6 +57,7 @@
 
 #take-action > :nth-child(2) > div > p {
     font-size: 0.92rem;
+    line-height: 24px;
 }
 
 /* --------------------------------What we do--------------------------------- */
@@ -127,6 +128,7 @@
 
 #what-we-do > .work > div > div > p {
     font-size: 1rem;
+    line-height: 24px;
 }
 
 #what-we-do > .work > div > div > a {
@@ -217,6 +219,7 @@
 
 #did-you-know-section > .did-you-know > .cards > div > div > .head > div {
     text-align: center;
+    line-height: 24px;
 }
 
 #did-you-know-section > .did-you-know > .cards > div > div > .social {
@@ -325,6 +328,10 @@
     gap: 2rem;
     transform: translateY(-2rem);
     text-align: center;
+}
+
+.event-grid > .desc > p {
+    line-height: 24px;
 }
 
 .event-grid > .desc > .btn {
