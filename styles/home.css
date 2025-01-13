@@ -30,7 +30,7 @@
 
 #take-action {
     max-width: 71rem;
-    padding: 0 1rem 1rem 1rem;
+    padding: 0 0.5rem 1rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,7 +69,7 @@
 }
 
 #what-we-do {
-    padding: 3.5rem 1rem;
+    padding: 3.5rem 0.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -79,7 +79,7 @@
 }
 
 .what-we-do-container > .header {
-    padding: 0 1rem;
+    padding: 0 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,7 +154,7 @@
 #did-you-know-section > .did-you-know {
     display: flex;
     flex-direction: column;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #did-you-know-section > .did-you-know > .title-btn {
@@ -302,7 +302,7 @@
 
 #events {
     padding: 4.8rem 0;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
 }
 
 #events > h2 {
@@ -353,7 +353,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 1rem;
+    padding: 4rem 0.5rem;
 }
 
 #contact > div > form {
@@ -385,7 +385,7 @@
 footer {
     display: flex;
     width: 100%;
-    padding: 3.5rem 1rem;
+    padding: 3.5rem 0.5rem;
 }
 
 footer > div > .logo {
@@ -718,7 +718,7 @@ footer > div {
     #did-you-know-section > .did-you-know {
         max-width: 40rem;
         flex-direction: row;
-        padding: 4rem 0;
+        padding: 4rem 0.5rem;
     }
 
     #did-you-know-section > .did-you-know > .title-btn {

@@ -312,7 +312,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 4rem 1rem;
+    padding: 4rem 0.5rem;
 }
 
 #contact > div > form {
@@ -344,7 +344,7 @@
 footer {
     display: flex;
     width: 100%;
-    padding: 3.5rem 1rem;
+    padding: 3.5rem 0.5rem;
 }
 
 footer > div > .logo {
@@ -397,7 +397,8 @@ footer > div {
 @media screen and (min-width: 480px) {
     .main_about {
         max-width: 40rem;
-        padding: 2rem 5px;
+        padding: 2rem 0;
+        margin: 0 0.5rem;
     }
 
     .first > h1 {
@@ -670,7 +671,7 @@ footer > div {
     /* -----------------missions------------- */
 
     #mission {
-        padding: 4rem 2rem;
+        padding: 4rem 0;
     }
 
     .mission-container {
@@ -720,6 +721,7 @@ footer > div {
 
     .team-desc {
         font-size: 1.25rem;
+        line-height: 30px;
     }
 
     .team-container {
