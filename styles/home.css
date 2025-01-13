@@ -838,6 +838,7 @@ footer > div {
 
     #did-you-know-section > .did-you-know > .cards {
         padding: 4rem 0;
+        transform: translateX(30px);
     }
 
     #did-you-know-section > .did-you-know > .cards > div {
